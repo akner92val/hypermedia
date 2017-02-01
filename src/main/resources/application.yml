@@ -1,0 +1,9 @@
+info:
+  version: '@version@'
+
+spring:
+  profiles: development
+
+spring.jpa:
+  database-platform: org.hibernate.dialect.PostgreSQL9Dialect
+  show-sql: true
